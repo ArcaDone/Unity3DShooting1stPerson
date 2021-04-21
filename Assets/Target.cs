@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    public float health = 50f;
+    [SerializeField] float health = 100f;
 
     public void TakeDamage(float amount)
     {

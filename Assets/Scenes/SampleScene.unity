@@ -568,7 +568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726caa00275774b97927ab1925ca2fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  health: 30
 --- !u!1 &170171480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1912,6 +1912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   range: 100
+  esplosionForce: 50
   shootFlash: {fileID: 1760944300}
   impactEffect: {fileID: 5923640096433383110, guid: b62c1b25799ed4919a6bd2e1d7d5c0cc, type: 3}
   fpsCam: {fileID: 742084}
